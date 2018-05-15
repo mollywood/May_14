@@ -1,0 +1,53 @@
+
+body {
+  background-image: url(https://previews.123rf.com/images/msmoloko/msmoloko1710/msmoloko171000073/88424823-black-and-white-geometric-memphis-pattern-with-wavy-zig-zag-lines-80s-and-90s-graphic-design-style-v.jpg);
+  background-repeat: repeat;
+  background-color: #B23674;
+}
+
+h1 {
+  color: #FFEE67;
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Skranji', cursive;
+}
+
+h2 {
+  color: #FFEE67;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Skranji', cursive;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;;
+  font-size: 40px;
+  text-align: center;
+}
+
+ul {
+  background-color: #3DBACC;
+  text-align: justify;
+  list-style-position: inside;
+  list-style-type: square;
+  font-family: 'Work Sans', sans-serif;
+  width: 400px;
+  align: center;
+  font-size: 35px;
+  color: #FF66B2;
+  border-width: thick;
+  border-color: #FF66B2;
+  border-style: groove;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #B23674;
+}
