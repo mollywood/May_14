@@ -1,8 +1,8 @@
 
 body {
-  background-image: url(https://previews.123rf.com/images/msmoloko/msmoloko1710/msmoloko171000073/88424823-black-and-white-geometric-memphis-pattern-with-wavy-zig-zag-lines-80s-and-90s-graphic-design-style-v.jpg);
-  background-repeat: repeat;
-  background-color: #B23674;
+  background-image: url(https://i.pinimg.com/736x/e2/d0/99/e2d0995d7ad44e4b82fabe2adcaa541f.jpg);
+  background-position: center;
+  background-color: #A929AE;
 }
 
 h1 {
@@ -10,6 +10,7 @@ h1 {
   text-align: center;
   font-size: 120px;
   font-family: 'Skranji', cursive;
+  padding-bottom: 0;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
   text-align: center;
   font-size: 90px;
   font-family: 'Skranji', cursive;
+  padding-top: 0;
 }
 
 h3 {
@@ -31,23 +33,46 @@ h4 {
   text-align: center;
 }
 
-ul {
-  background-color: #3DBACC;
-  text-align: justify;
-  list-style-position: inside;
-  list-style-type: square;
+a {
+  color: #F454FB;
   font-family: 'Work Sans', sans-serif;
-  width: 400px;
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbox {
+  background-color: #2FC8AA;
   align: center;
   font-size: 35px;
   color: #FF66B2;
-  border-width: thick;
-  border-color: #FF66B2;
-  border-style: groove;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20;
+  display: flex;
+  margin-left: -10;
+  margin-right: -10;
+  position: fixed;
+  margin-top: 10;
 }
 
-a {
-  color: #B23674;
+.navitems {
+  background-color: #2FC8AA;
+  display: flex;
+  text-align: center;
+  padding-left: 15;
+  margin-left: 15;
+  margin-right: 15;
+}
+
+.top {
+  background-color: #F454FB;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-top: 200;
+  border-color: #2FC8AA;
+  border-style: double;
+  position:absolute;
+  padding: 20;
+  margin-bottom: 40;
 }
